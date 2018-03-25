@@ -1,0 +1,222 @@
+{
+  "extName":{
+    "message":"µBlock",
+    "description":"extension name."
+  },
+  "extShortDesc":{
+    "message":"Eindelijk, een efficënte blokkeerder voor Chromiumgebasseerde browsers. Light CPU- en geheugenverbruik.",
+    "description":"this will be in the chrome web store: must be 132 characters or less"
+  },
+  "settingsPageName":{
+    "message":"Instellingen",
+    "description":"appears as tab name in dashboard."
+  },
+  "3pPageName":{
+    "message":"3rd-party filters",
+    "description":"appears as tab name in dashboard."
+  },
+  "1pPageName":{
+    "message":"Jouw filters",
+    "description":"appears as tab name in dashboard."
+  },
+  "statsPageName":{
+    "message":"Statistieken",
+    "description":"appears as tab name in dashboard."
+  },
+  "aboutPageName":{
+    "message":"Over",
+    "description":"appears as tab name in dashboard."
+  },
+  "popupPowerSwitchInfo":{
+    "message":"Klik op de aan\/uit-knop om <br>permanent µBlock aan en uit te schakelen<br> voor de huidge website",
+    "description":"English (mind the horizontal extent): click the power button to <br>permanently disable or enable <br>µBlock for the current site"
+  },
+  "popupBlockedRequestPrompt":{
+    "message":"geblokkeerde verzoeken",
+    "description":"English: requests blocked"
+  },
+  "popupBlockedOnThisPagePrompt":{
+    "message":"op deze pagina",
+    "description":"English: on this page"
+  },
+  "popupBlockedSinceInstallPrompt":{
+    "message":"sinds installatie",
+    "description":"English: since install"
+  },
+  "pickerCreate":{
+    "message":"Maak",
+    "description":"English: Create"
+  },
+  "pickerPick":{
+    "message":"Kies",
+    "description":"English: Pick"
+  },
+  "pickerQuit":{
+    "message":"Sluiten",
+    "description":"English: Quit"
+  },
+  "pickerNetFilters":{
+    "message":"Netfilters",
+    "description":"English: Net filters"
+  },
+  "pickerCosmeticFilters":{
+    "message":"Cosmetische filters",
+    "description":"English: Cosmetic filters"
+  },
+  "settingsCollapseBlockedPrompt":{
+    "message":"Verberg tijdelijke aanduidingen van geblokkeerde elementen",
+    "description":"English: Hide placeholders of blocked elements"
+  },
+  "settingsIconBadgePrompt":{
+    "message":"Toon het aantal geblokkeerde aanvragen op het icoon",
+    "description":"English: Show the number of blocked requests on the icon"
+  },
+  "3pListsOfBlockedHostsPrompt":{
+    "message":"{{ubiquitousBlacklistCount}} netwerkfilters van:",
+    "description":"English: {{ubiquitousBlacklistCount}} network filters from:"
+  },
+  "3pListsOfBlockedHostsPerListStats":{
+    "message":"{{used}} gebruik van {{total}}",
+    "description":"English: {{used}} used out of {{total}}"
+  },
+  "3pParseAllABPHideFiltersPrompt1":{
+    "message":"Parseer en pas Adblock+ element verbergfilters toe.",
+    "description":"English: Parse and enforce Adblock+ element hiding filters."
+  },
+  "3pParseAllABPHideFiltersPrompt2":{
+    "message":"{{abpHideFilterCount}} element verbergfilters gebruikt.",
+    "description":"English: {{abpHideFilterCount}} element hiding filters used."
+  },
+  "3pParseAllABPHideFiltersInfo":{
+    "message":"<p>Deze optie schakelt het parseren en toepassen van <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-compatibele &ldquo;element hiding&rdquo; filters<\/a> in. Deze filters zijn puur cosmetisch, ze verbergen elementen in de webpagina die een visueel storend kunnen zijn en kunnen dus niet geblokkeerd worden door het net request-based filtering engine.<\/p><p>Het inschakelen van deze funtie verhoogt het geheugengebruik van <i>µBlock<\/i>.<\/p>",
+    "description":"English: see English messages.json"
+  },
+  "3pListsOfBlockedHostsHeader":{
+    "message":"Lijst van geblokkeerde hosts",
+    "description":"English: Lists of blocked hosts"
+  },
+  "3pApplyChanges":{
+    "message":"Pas veranderingen toe",
+    "description":"English: Apply changes"
+  },
+  "1pFormatHint":{
+    "message":"Één filter per lijn. Een filter kan een gewone hostname of een Adblock Plus-compatibele filter zijn. Lijnen voorgaand met &lsquo;!&rsquo; worden genegeerd.",
+    "description":"English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored."
+  },
+  "1pImport":{
+    "message":"Importeer en voeg toe",
+    "description":"English: Import and append"
+  },
+  "1pExport":{
+    "message":"Exporteren",
+    "description":"English: Export"
+  },
+  "1pApplyChanges":{
+    "message":"Pas veranderingen toe",
+    "description":"English: Apply changes"
+  },
+  "logBlockedRequestsPrompt":{
+    "message":"Schakel het loggen van geblokkeerde verzoeken in",
+    "description":"English: Enable the logging of blocked requests"
+  },
+  "logBlockedRequestsHelp":{
+    "message":"Je kan de details van geblokkeerde verzoeken blokkeren inspecteren door deze optie in te schakelen, Het loggen van geblokkeerde verzoeken verhoogt het geheugengebruik van µBlock. Veel gebruikers gebruiken deze functie nooit, dus is het standaard uitgeschakeld.",
+    "description":"English: see _locales\/en\/messages.log"
+  },
+  "logAllowedRequestsPrompt":{
+    "message":"Schakel het loggen van niet-geblokkeerde verzoeken in",
+    "description":"English: Enable the logging of non-blocked requests"
+  },
+  "logAllowedRequestsHelp":{
+    "message":"Je kan de details van geblokkeerde verzoeken blokkeren inspecteren door deze optie in te schakelen, Het loggen van geblokkeerde verzoeken verhoogt het geheugengebruik van µBlock. Veel gebruikers gebruiken deze functie nooit, dus is het standaard uitgeschakeld.",
+    "description":"English: see _locales\/en\/messages.log"
+  },
+  "logBlockedRequestsHeader":{
+    "message":"Geblokkeerde verzoeken",
+    "description":"English: Blocked requests"
+  },
+  "logAllowedRequestsHeader":{
+    "message":"Toegelaten verzoeken",
+    "description":"English: Allowed requests"
+  },
+  "logRequestsHeaderType":{
+    "message":"Type",
+    "description":"English: Type"
+  },
+  "logRequestsHeaderDomain":{
+    "message":"Domein",
+    "description":"English: Domain"
+  },
+  "logRequestsHeaderURL":{
+    "message":"URL",
+    "description":"English: URL"
+  },
+  "logRequestsHeaderFilter":{
+    "message":"Filter",
+    "description":"English: Filter"
+  },
+  "logBlockedRequestsEmpty":{
+    "message":"Geen geblokkeerde verzoeken zijn gelogd voor deze pagina",
+    "description":"English: No blocked requests logged for this page"
+  },
+  "logAllowedRequestsEmpty":{
+    "message":"Geen niet-geblokkeerde verzoeken zijn gelogd voor deze pagina",
+    "description":"English: No non-blocked requests logged for this page"
+  },
+  "aboutChangelog":{
+    "message":"<a href='https:\/\/github.com\/gorhill\/ublock\/wiki\/Change-log'>Veranderingenlogboek<\/a>",
+    "description":"English: <a href='https:\/\/github.com\/gorhill\/ublock\/wiki\/Change-log'>Change log<\/a>"
+  },
+  "aboutCode":{
+    "message":"<a href='https:\/\/github.com\/gorhill\/ublock'>Broncode (GPLv3)<\/a>",
+    "description":"English: <a href='https:\/\/github.com\/gorhill\/ublock'>Source code (GPLv3)<\/a>"
+  },
+  "aboutExtensionDataHeader":{
+    "message":"Extensiedata",
+    "description":"English: Extension data"
+  },
+  "aboutAssetsUpdatePrompt":{
+    "message":"<i>µBlock<\/i> onderdelen kunnen hier geupdate worden zonder te hoeven wachten op de volgende versie van de extensie. De onderdelen worden van de <a href=\"https:\/\/github.com\/gorhill\/ublock\">Github projectpagina<\/a> gehaald.",
+    "description":"Short descriptive text of the update feature"
+  },
+  "aboutAssetsUpdateColPath":{
+    "message":"Pad",
+    "description":"Path column header"
+  },
+  "aboutAssetsUpdateColStatus":{
+    "message":"Status",
+    "description":"Status column header"
+  },
+  "aboutAssetsUpdateGetListError":{
+    "message":"Er is een fout opgetreden. Is <b>XHR<\/b> geblokkeerd voor <b>raw2.github.com<\/b>?",
+    "description":"Successful outcome of clicking 'update' button"
+  },
+  "aboutAssetsUpdateStatusAdded":{
+    "message":"Toe te voegen",
+    "description":"Displayed in the status column for each entry"
+  },
+  "aboutAssetsUpdateStatusChanged":{
+    "message":"Nieuwe versie beschikbaar",
+    "description":"Displayed in the status column for each entry"
+  },
+  "aboutAssetsUpdateStatusUnchanged":{
+    "message":"bijgewerkt",
+    "description":"Displayed in the status column for each entry"
+  },
+  "aboutAssetsUpdateStatusRemoved":{
+    "message":"Verwijderen",
+    "description":"Displayed in the status column for each entry"
+  },
+  "aboutAssetsUpdateButton":{
+    "message":"Update",
+    "description":"Update button"
+  },
+  "aboutAssetsUpdatingButton":{
+    "message":"Aan het updaten...",
+    "description":"Updating..."
+  },
+  "dummy":{
+    "message":"This entry must be the last one",
+    "description":"so we dont need to deal with comma for last entry"
+  }
+}
